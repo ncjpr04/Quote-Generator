@@ -32,7 +32,7 @@ let myjokes = ["“Never put off till tomorrow what may be done day after tomorr
   const generateButton = document.getElementById("generateButton");
 
 generateButton.addEventListener("click", () => {
-    const index = Math.floor(Math.random() * myjokes.length- 1);
+    const index = Math.floor(Math.random() * myjokes.length);
     // joke.innerHTML= myjokes[index].joke
     joke.innerHTML = myjokes[index];
 })
